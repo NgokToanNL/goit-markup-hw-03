@@ -3,7 +3,7 @@
   --secondary-text-color: #757575;
   --logo-color: #2196f3;
   --header-background-color: #ffffff;
-  --benefits-background-color: #e5e5e5;
+  --benefits-background-color: #ffffff;
   --team-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
   --accent-color: #2196f3;
@@ -111,11 +111,9 @@ body {
   display: inline-block;
   min-width: 73px;
   border: 0px solid transparent;
-
   font-family: roboto, sans-serif;
   cursor: pointer;
   border-radius: 4px;
-
   text-align: center;
 }
 
@@ -255,7 +253,7 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
+  text-align: center;
   color: var(--button-col-portfolio-first);
   background-color: var(--button-back-portfolio-first);
 }
@@ -274,7 +272,7 @@ h2 {
   color: var(--primary-text-color);
 }
 
-.content-list h3 {
+.content-list h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
