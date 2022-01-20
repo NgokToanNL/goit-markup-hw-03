@@ -333,7 +333,24 @@ img {
 /*ФУТЕР*/
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--logo-color);
+  text-decoration: none;
 }
 
 .footer-adress {
@@ -342,7 +359,13 @@ img {
   font-style: normal;
 }
 
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-adress .map {
+  margin-top: 0;
+
   color: #ffffff;
   text-decoration: none;
 }
@@ -352,9 +375,9 @@ img {
   text-decoration: none;
 }
 
-.list .map:hover,
-.list .nav:hover,
-.list .map:focus .list .nav:focus {
+.footer-list .map:hover,
+.footer-list .nav:hover,
+.footer-list .map:focus .footer-list .nav:focus {
   color: var(--accent-color);
   text-decoration: none;
 }
